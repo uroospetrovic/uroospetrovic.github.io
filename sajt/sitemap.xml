@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-	<loc></loc>
+	<loc>https://uroospetrovic.github.io/sajt/index.html</loc>
 	<lastmod>2023-03-14</lastmod>
 	<changefreq>daily</changefreq>
 	<priority>1</priority>
 </url>	
 
 <url>
-	<loc></loc>
+	<loc>https://uroospetrovic.github.io/sajt/galerija.html</loc>
 	<lastmod>2023-03-14</lastmod>
 	<changefreq>weekly</changefreq>
 	<priority>0.7</priority>
 </url>
 
 <url>
-	<loc></loc>
+	<loc>https://uroospetrovic.github.io/sajt/kontakt.html</loc>
 	<lastmod>2023-03-14</lastmod>
 	<changefreq>yearly</changefreq>
 	<priority>0.6</priority>
 </url>
 
 <url>
-	<loc></loc>
+	<loc>https://uroospetrovic.github.io/sajt/o-nama.html</loc>
 	<lastmod>2023-03-14</lastmod>
 	<changefreq>yearly</changefreq>
 	<priority>0.6</priority>
 </url>
 
 <url>
-	<loc></loc>
+	<loc>https://uroospetrovic.github.io/sajt/autor.html</loc>
 	<lastmod>2023-03-14</lastmod>
 	<changefreq>yearly</changefreq>
 	<priority>0.6</priority>
