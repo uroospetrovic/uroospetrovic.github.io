@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Vesti</title>
+    <link></link>
+    <description>Poslednja obaveštenja.</description>
+    <language>sr</language>
+    <lastBuildDate>Pon, 13 Mar 2023 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Vest 1</title>
+      <link></link>
+      <description>Prvo obaveštenje</description>
+      <pubDate>Uto, 14 Mar 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vest 2</title>
+      <link></link>
+      <description>Drugo obaveštenje</description>
+      <pubDate>Pet, 17 Mar 2023 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
