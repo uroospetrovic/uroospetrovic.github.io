@@ -1,0 +1,919 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+   
+}
+
+a{
+      text-decoration: none;
+}
+
+#wrapper{
+	width:100%;		
+}
+
+header{
+	width:100%;
+	margin: 0px auto;
+	padding: 25px 0px;
+	background-color: #3A3B3C;
+}
+
+.center-div{
+	width: 80%;
+	margin: 0px auto;
+}
+
+#header-content{
+	width:100%;
+	
+}
+
+
+#logo{
+	width: 40%;
+	float: left;
+	animation: fadeIn 3s;
+	
+}
+
+	
+nav{
+	width: 50%;
+	float: right;
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	animation: fadeIn 3s;
+	
+}
+
+
+
+.cleaner{
+	clear:both;
+}
+
+nav ul{
+		float: right;
+}
+
+#meni li{
+     display: inline;
+	 list-style-type: none;
+	 margin-left: 10px;
+	
+}	
+#meni li a{
+        text-decoration: none;
+		font-size: 20px;
+				
+}
+
+#meni a:link{
+		color: #ffffff;
+}
+
+#meni a:visited{
+	color: #ffffff;
+}
+
+#meni a:hover{
+		text-decoration: underline;
+}
+
+
+	
+
+#cover{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/window.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+#cover-content, #cover-contact-content,#about-content, #author-cover-content {
+	
+		width: 50%;
+		height: 100px;
+		margin: 0px auto;
+		text-align: center;
+		color: #ffffff;
+		padding-top: 200px;
+		font-family: 'Open Sans', sans-serif; 
+		font-size: 30px;
+		animation: fadeIn 2s;
+			
+}
+
+
+@keyframes fadeIn{
+	0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#banner-div{
+		width:100%;
+		margin: 50px 0px;
+
+}
+
+.baner{
+     width: 25%;
+	 height: 150px;
+	 float: left;
+	 text-align: center;
+	 font-family: 'Open Sans', sans-serif; 
+	 transition: transform .2s;
+	 	 
+	 
+}
+
+.baner:hover{
+	transform: scale(1.1);
+}
+
+
+.baner p{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 5px 0px;
+}
+
+#banner-div .fa-solid{
+	font-size: 60px;
+	margin: 5px 0px;
+	
+	
+	
+}
+
+#main{
+	width: 100%;
+	margin: 10px auto;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.profile-content{
+	width: 100%;
+	text-align: justify;
+	margin: 25px 0px;
+
+}
+
+.profile-content h2{
+	margin: 20px 0px;
+	text-align: center;
+	
+}
+
+
+#profiles-title{
+	width: 100%;
+	text-align: center;
+	margin: 50px 0px;
+	
+	
+}
+
+.profiles{
+	width: 100%;
+	height: 350px;
+	margin: 50px 0px;
+	box-shadow: 2px 2px 5px #808080;
+	
+}
+
+
+.profile-img{
+	width: 30%;
+	height: 350px;
+	float: left;
+}
+
+.profile-img img{
+		width: 100%;
+		height: 100%;
+}
+
+.profile-img2{
+	float: right;
+
+}
+
+.profile-description{
+	width: 70%;
+	height: 350px;
+	float: left;
+	font-size: 20px;
+	
+
+}	
+
+.profile-description table{
+	font-size: 18px;
+	border-spacing: 5px;
+	margin: 0px auto;
+	width: 80%;
+	text-align: justify;
+	
+	
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #3A3B3C;
+	
+}
+
+footer .fa-solid, .fa-brands{
+		font-size: 20px;
+		color: #ffffff;
+		margin: 20px 5px;
+		
+		
+}
+
+.footer-content{
+	width:30%;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin: 5px 0px;
+}
+
+.footer-content1{
+	text-align: justify;
+}
+
+.footer-content1 i{
+	font-size: 15px;
+	color: #ffffff;
+	margin-right: 5px;
+	
+	
+}
+
+.footer-content2{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	
+}
+
+.footer-content2 i{
+	font-size: 25px;
+		
+}
+
+.footer-content3{
+	float: right;
+	
+}
+
+
+
+footer ul li{
+	list-style-type: none;
+	font-size: 15px;
+	
+}
+
+footer a:visited{
+	color: #ffffff;
+	
+}
+
+footer a:link{
+	color: #ffffff;
+}
+
+
+
+/*contact-style*/
+#cover-contact{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/contact.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#cover-contact-content{
+	animation: fadeIn 2s;
+}
+
+#contact{
+		width: 100%;
+		margin: 50px 0px;
+		box-shadow: 1px 1px 5px #000000;
+		
+}
+
+
+
+#contact-form{
+	width:50%;
+	height: 400px;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+			
+	
+}
+#table{
+	margin: 0px auto;
+	font-size: 20px; 
+}
+
+#contact-form input[type="text"], input[type="email"]{
+	border: none;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	border-bottom: 2px solid #000000;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+#contact-form textarea{
+	border: 1px solid #000000;
+	border-radius: 5px;
+	
+}
+
+#btn{
+	width: 80px;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#contact-description{
+	width:50%;
+	height: 400px;
+	float: right;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	
+	
+}
+
+#contact-content{
+	width: 80%;
+	margin: 0px auto;
+}
+
+#contact-description i{
+	font-size: 20px;
+	margin-right: 10px;
+	
+	
+}
+#contact-description p{
+	margin: 20px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.fa-address-card{
+	font-size: 150px;
+}
+
+#button{
+	font-size: 20px;
+	border-radius: 5px;
+	
+}
+
+
+
+
+/*gallery*/
+
+
+#gallery{
+	width:100%;
+	
+}
+
+#title-gallery{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.gallery-row{
+	width: 100%;
+	margin: 20px 0px;
+	
+}
+
+.gallery-block{
+	width: 30%;
+	height: 250px;
+	float: left;
+	transition: transform .2s;
+	
+}
+
+.gallery-block:hover{
+	transform: scale(1.1);
+}
+
+.gallery-block img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.block2{
+	margin: 0px 5%;
+	
+}
+
+.block3{
+	float: right;
+}
+
+/*AboutUs*/
+#about-cover{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/about-cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#about-main{
+	margin: 80px 0px;
+	width: 100%;
+	height: 350px;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 2px 2px 5px #d3d3d3;
+	
+}
+.about-us-content img{
+	width: 100%;
+	height: 100%;
+}
+
+.about-us-content{
+	width:45%;
+	height: 350px;
+	float: left;
+	font-size: 20px;
+	
+}
+
+.about-description{
+	float: right;
+	text-align: justify;
+	padding: 30px;
+}
+
+.about-description h2{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+/*Author*/
+
+#author-cover{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/author-cover.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+#author-content{
+	width: 100%;
+	height: 500px;
+	margin: 20px 0px;
+}
+
+.row{
+	width:50%;
+	height: 450px;
+	float: left;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin: 20px 0px;
+	
+	
+}
+
+.row h1{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.row img{
+	border-radius: 5px;
+	transition: 1s ease;
+}
+
+.row img:hover{
+	border-radius:50%;
+    transition: 1s ease;
+}
+
+.row h2,.row p{
+	margin: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+/* =====================================================
+   RESPONSIVE DIZAJN
+   (desktop stilovi iznad ostaju nepromenjeni)
+   ===================================================== */
+
+/* hamburger dugme - na desktopu je sakriveno */
+#menu-toggle{
+	display: none;
+}
+
+/* ---------- Tablet i manji (do 900px) ---------- */
+@media (max-width: 900px){
+
+	img{
+		max-width: 100%;
+	}
+
+	.center-div{
+		width: 90%;
+	}
+
+	/* --- Header + hamburger meni --- */
+	header{
+		padding: 15px 0px;
+	}
+
+	#header-content{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	#logo{
+		width: auto;
+		float: none;
+	}
+
+	#menu-toggle{
+		display: block;
+		background: none;
+		border: 2px solid #ffffff;
+		border-radius: 5px;
+		padding: 8px 9px;
+		cursor: pointer;
+		animation: fadeIn 3s;
+	}
+
+	#menu-toggle span{
+		display: block;
+		width: 24px;
+		height: 3px;
+		background-color: #ffffff;
+		border-radius: 2px;
+		margin: 4px 0px;
+		transition: transform .25s, opacity .25s;
+	}
+
+	.menu-open #menu-toggle span:nth-child(1){
+		transform: translateY(7px) rotate(45deg);
+	}
+	.menu-open #menu-toggle span:nth-child(2){
+		opacity: 0;
+	}
+	.menu-open #menu-toggle span:nth-child(3){
+		transform: translateY(-7px) rotate(-45deg);
+	}
+
+	nav{
+		display: none;
+		width: 100%;
+		float: none;
+		padding-top: 10px;
+		order: 3;
+	}
+
+	.menu-open nav{
+		display: block;
+		animation: fadeIn .3s;
+	}
+
+	nav ul{
+		float: none;
+	}
+
+	#meni li{
+		display: block;
+		margin-left: 0px;
+		text-align: center;
+		border-top: 1px solid #5a5b5c;
+	}
+
+	#meni li a{
+		display: block;
+		padding: 14px 0px;
+	}
+
+	#header-content .cleaner{
+		display: none;
+	}
+
+	/* --- Cover slike --- */
+	#cover, #cover-contact, #about-cover, #author-cover{
+		height: 380px;
+	}
+
+	#cover-content, #cover-contact-content, #about-content, #author-cover-content{
+		width: 85%;
+		height: auto;
+		padding-top: 130px;
+		font-size: 22px;
+	}
+
+	#cover-content h1, #cover-contact-content h1, #about-content h1, #author-cover-content h1{
+		font-size: 38px;
+	}
+
+	/* --- Baneri (2 x 2) --- */
+	#banner-div{
+		margin: 30px 0px;
+	}
+
+	.baner{
+		width: 50%;
+		height: auto;
+		margin-bottom: 30px;
+		padding: 0px 10px;
+		box-sizing: border-box;
+	}
+
+	/* --- Profili: slika gore, tabela dole --- */
+	.profiles{
+		height: auto;
+		margin: 30px 0px;
+		padding-bottom: 15px;
+	}
+
+	.profile-img, .profile-img2{
+		width: 100%;
+		height: 260px;
+		float: none;
+	}
+
+	.profile-img img{
+		object-fit: cover;
+	}
+
+	.profile-description, .profile-description2{
+		width: 100%;
+		height: auto;
+		float: none;
+		padding-top: 15px;
+	}
+
+	.profile-description table{
+		width: 94%;
+		font-size: 16px;
+	}
+
+	/* --- Footer: jedna kolona --- */
+	footer{
+		height: auto;
+		padding: 20px 0px;
+	}
+
+	.footer-content, .footer-content3{
+		width: 100%;
+		float: none;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.footer-content1{
+		text-align: center;
+	}
+
+	.footer-content2{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.footer-content p{
+		overflow-wrap: anywhere;
+	}
+
+	/* --- Kontakt --- */
+	#contact{
+		margin: 30px 0px;
+		padding: 20px 0px;
+	}
+
+	#contact-form, #contact-description{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	#contact-description{
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	#table{
+		width: 90%;
+		font-size: 18px;
+	}
+
+	#table td{
+		display: block;
+	}
+
+	#contact-form textarea{
+		width: 100%;
+		box-sizing: border-box;
+		font-family: 'Open Sans', sans-serif;
+		padding: 8px;
+	}
+
+	#contact-form input, #contact-form textarea{
+		font-size: 16px; /* sprecava automatski zoom na iPhone-u */
+	}
+
+	#contact-content{
+		width: 90%;
+	}
+
+	/* --- Galerija (2 kolone) --- */
+	.gallery-row{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+
+	.gallery-row .cleaner{
+		display: none;
+	}
+
+	.gallery-block, .block2, .block3{
+		width: auto;
+		height: 220px;
+		float: none;
+		margin: 0px;
+	}
+
+	.gallery-block img{
+		object-fit: cover;
+	}
+
+	.gallery-block:hover, .baner:hover{
+		transform: none;
+	}
+
+	/* --- O nama --- */
+	#about-main{
+		height: auto;
+		margin: 40px 0px;
+	}
+
+	.about-us-content{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	.about-us-content img{
+		height: 260px;
+		object-fit: cover;
+		display: block;
+	}
+
+	.about-description{
+		padding: 20px;
+		box-sizing: border-box;
+		font-size: 18px;
+	}
+
+	/* --- Autor --- */
+	#author-content{
+		height: auto;
+	}
+
+	.row{
+		width: 100%;
+		height: auto;
+		float: none;
+		margin: 20px 0px;
+	}
+
+	.row img{
+		height: auto;
+	}
+}
+
+/* ---------- Telefon (do 600px) ---------- */
+@media (max-width: 600px){
+
+	#logo img{
+		width: 150px;
+		height: auto;
+	}
+
+	#cover, #cover-contact, #about-cover, #author-cover{
+		height: 320px;
+	}
+
+	#cover-content, #cover-contact-content, #about-content, #author-cover-content{
+		padding-top: 100px;
+		font-size: 18px;
+	}
+
+	#cover-content h1, #cover-contact-content h1, #about-content h1, #author-cover-content h1{
+		font-size: 30px;
+	}
+
+	.baner{
+		width: 100%;
+	}
+
+	.profile-img, .profile-img2{
+		height: 220px;
+	}
+
+	.profile-description table{
+		font-size: 15px;
+		border-spacing: 3px;
+		text-align: left;
+	}
+
+	.profile-content{
+		text-align: left;
+	}
+
+	.profile-content h2, #profiles-title h2{
+		font-size: 22px;
+	}
+
+	.gallery-row{
+		grid-template-columns: 1fr;
+	}
+
+	.gallery-block, .block2, .block3{
+		height: 230px;
+	}
+
+	#table{
+		font-size: 16px;
+	}
+
+	#contact-description{
+		font-size: 16px;
+	}
+
+	.about-us-content img{
+		height: 200px;
+	}
+
+	.about-description{
+		font-size: 16px;
+		text-align: left;
+	}
+}
